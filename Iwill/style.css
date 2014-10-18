@@ -1,0 +1,133 @@
+/*
+Theme Name:Iwill
+Theme URI:http://liuronghuan.com
+Description:这是<a href="http://iwilling.org" target="_blank">Iwill</a>制作的主题
+Author:刘荣焕
+Author URI:http://iwilling.org
+Version:1.0
+*/
+/* --------------------------------------------------- MAIN */
+
+body {color: #333333;margin:0;padding:0;font-size:14px;font-family: "Microsoft YaHei","微软雅黑";}
+a {color: #333333;text-decoration:none}
+ul{ margin:0; padding:0}
+ul li{list-style:none}
+.right{float:right}
+.left{float:left}
+.clear{clear:both}
+h2 {width: 100%;height: 28px;float: left;font-size: 22px;margin: 0;color: #000;margin-bottom: 15px;text-align: center;border-bottom: 1px solid #EEE;background: none;font-weight:normal}
+.navbar_header {background: #FFF;width: 100%;height: 111px;position: relative;z-index: 9;box-shadow: 0 1px 3px rgba(0, 0, 0, 0.05);}
+.mid {width: 960px;margin: 0 auto;position: relative;}
+.midlag{width: 1280px;margin: 0 auto;position: relative;}
+#topbar{height: 25px;background-color: #F3F3F3;border-bottom: 1px solid #e5e5e5;}
+#topbar li{float:left;line-height: 25px;margin:0;padding: 0 6px;height: 25px;list-style: none;text-align: center;z-index: 10;}
+.borderLi {line-height: 23px;width: 2px;padding: 0 4px;float: right;}
+.grayline{border-bottom: 1px solid #e4e4e4;}
+.logo{margin-top:10px;}
+.menu{float:right;position:relative;z-index:9;background:#fff;height:70px;font-size:16px;margin: 12px 0 0 0;list-style: none;}
+.menu li{display:inline-block;line-height:48px;height: 47px;position:relative}
+.menu a{color:#727272;font-family:"Microsoft YaHei","微软雅黑";display:block;height:48px;padding:0 18px;text-align: center;}
+.current-menu-item a{border-bottom:1px solid #0D82DB;height:48px;text-decoration: none;}
+
+.intro{ position:relative;padding:60px 0 48px;}
+.onethi{min-height: 128px;position: relative;width: 33.33333333333333%;}
+.introtxt{display: block;margin: 20px 30px;_width: 181px;min-height: 80px;}
+.introtxt img{float:left;margin-right:20px}
+.introtxt h3{color:#343434;margin:0}
+#footer a{color: #777777;}
+#footer h3{margin-bottom:24px}
+p {color: #777777;line-height:24px;margin:0}
+.work{background-color: #F2F2F1;padding:50px 0 70px;position: relative;}
+.contact{padding:36px 0;position: relative;}
+.contact h4{font-weight:400;font-size:20px}
+.center{text-align:center}
+.onefor{min-height: 128px;position: relative;width: 25%;}
+.contact .intro{padding:32px 0;}
+.contact .introtxt i {color:#777777;font-size: 46px;line-height: 72px;margin-right: 16px;}
+.contact p{margin-top:6px}
+.footer-info {background: #424242;padding: 24px 0 36px;color:#c8c8c8}
+.fotext{padding-right:36px}
+.contactor{margin-top:16px}
+.contactor li{display:inline-block;padding:0 12px 0 0}
+.contactor i{font-size:20px}
+.footer-copy {height: 48px;background: #373737;color: #5b5b5b;font-size: 12px}
+.footer-copy p{color:#5b5b5b;height: 48px;line-height:48px;font-size: 14px;text-align:center}
+/**** Isotope CSS3 transitions ****/
+#container{padding-bottom:24px;overflow:visible}
+.isotope,
+.isotope .isotope-item {
+  -webkit-transition-duration: 0.8s;
+     -moz-transition-duration: 0.8s;
+      -ms-transition-duration: 0.8s;
+       -o-transition-duration: 0.8s;
+          transition-duration: 0.8s;}
+.isotope {
+  -webkit-transition-property: height, width;
+     -moz-transition-property: height, width;
+      -ms-transition-property: height, width;
+       -o-transition-property: height, width;
+          transition-property: height, width;}
+.isotope .isotope-item {
+  -webkit-transition-property: -webkit-transform, opacity;
+     -moz-transition-property:    -moz-transform, opacity;
+      -ms-transition-property:     -ms-transform, opacity;
+       -o-transition-property:         top, left, opacity;
+          transition-property:         transform, opacity;}
+/* required for containers to inherit vertical size from window */
+.element {width: 302px;height: 185px;display:inline-block;margin-left:10px;margin-top:36px}
+.case_body {width: 302px;height: 215px;background: url(img/bg_case_f.png) no-repeat bottom;}
+.case_w {display: block;width: 262px;height: 145px;padding: 20px;background: url(img/bg_case.png) no-repeat;position: absolute;bottom: 14px;left: 0px;}
+.case_w .fire {background: #000;opacity: 0.5;filter: alpha(opacity=50);position: absolute;top: 20px;left: 20px;width: 262px;height: 148px;z-index: 2;display: none;}
+.case_w .y {width: 61px;height: 61px;top: 0px;position: absolute;z-index: 3;display: none;background: url(img/readmore.png);left: 120px;}
+.element * {position: absolute;margin: 0;}
+/**** Example Options ****/
+#options {position:relative;margin-bottom:-20px;z-index:10;}
+#options ul {width:420px;margin: 0 auto;list-style: none;}
+#options ul li {display:inline-block;margin-bottom: 0.2em;}
+#options ul li a {font-size:16px;display: block;padding: 1em 0.5em 0.5em;color: #343434;font-weight: normal;position:relative}
+.menu li a:after, .menu li a:before{height:1px;top:48px}
+#options ul li a:after,#options ul li a:before{height:2px;top:40px}
+.menu li a:after, #options ul li a:after{width:0;left:50%;content:"";background:#0D82DB;position:absolute;-webkit-transition-property:width;-moz-transition-property:width;-o-transition-property:width;transition-property:width;-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-o-transition-duration:0.5s;transition-duration:0.5s}
+.menu li a:before,#options ul li a:before{width:0;right:50%;content:"";background:#0D82DB;position:absolute;-webkit-transition-property:width;-moz-transition-property:width;-o-transition-property:width;transition-property:width;-webkit-transition-duration:0.5s;-moz-transition-duration:0.5s;-o-transition-duration:0.5s;transition-duration:0.5s;-webkit-transition-timing-function:ease;-moz-transition-timing-function:ease;-o-transition-timing-function:ease;transition-timing-function:ease}
+.menu li a:hover:after,.menu li a:hover:before,#options ul li a:hover:after, #options ul li a:hover:before{width:50%}
+#options li a:hover {color: #0D82DB;}
+#options li a.selected {color: #0D82DB;border-bottom: 2px solid #0D82DB;}
+/* The Magnificent Clearfix: nicolasgallagher.com/micro-clearfix-hack/ */
+.clearfix:before, .clearfix:after { content: ""; display: table; }
+.clearfix:after { clear: both; }
+.clearfix { zoom: 1; }
+
+/* category*/
+.article{background-color: #ECECE8;position:relative}
+.article .bg{width:100%;height: 460px;}
+.article li{border-bottom: 1px dashed #DEDEDE;}
+.article li .notice {font-size: 11px;color: #AAA;}
+.article li p{line-height: 20px;margin: 5px 10px 10px 0;color: #858585;}
+.category .bg{background: url(img/category.jpg) center top no-repeat}
+.contacter .bg{background: url(img/contact.jpg) center top no-repeat}
+.about .bg{background: url(img/about.jpg) center top no-repeat}
+.works .bg{background: url(img/work.jpg) center top no-repeat}
+.article .mid{min-height:460px; padding: 15px 15px 16px;background: #FFF;margin-top: -230px;position:relative}
+.article .mid ul li a img{padding:15px;width: 150px;height: 105px;}
+.article .mid ul li h3{padding-top:18px;margin-bottom:12px}
+.article h2 {width: 100%;height: 20px;; margin: 5px 0 20px;border:none}
+.category h2 {background: url(img/title_bg.png) 0 -60px no-repeat}
+.contacter h2 {background: url(img/title_bg.png) 0 -120px no-repeat}
+.about h2 {background: url(img/title_bg.png) 0 -90px no-repeat}
+.works h2 {background: url(img/title_bg.png) 0 -30px no-repeat}
+em {padding-left: 24px;font-style: normal;}
+
+/* pager */
+#postnavigation {width:100%; margin:18px 0; text-align:center;}
+#postnavigation a {margin:0 8px; padding:3px 8px 4px; color:#959595; background:#F7F7F7;}
+#postnavigation a:hover {color:#FFF; background:#959595;}
+#postnavigation a.current,#postnavigation a.current:hover {background:#368DD9; color:#FFF;}
+
+/* single */
+.notice {text-align: center;margin: 5px 0;}
+.postitle h2{padding-bottom:16px;border-bottom: 1px solid #EEE;background:none}
+.postcontent{width: 90%;color: #474747;font-size: 14px;padding: 20px 5%;border-bottom: 1px solid #EEE;}
+
+.homeslide{position:relative;width: 100%;height: 600px;padding: 0 0 10px;background: url(img/bodybg.jpg) 0 0 repeat;}
+#smartdemo {width: 1200px;height: 600px;overflow: hidden;margin: 0 auto;text-align: center;}
+#smartdemo li {width: 1400px;height: 750px;}
